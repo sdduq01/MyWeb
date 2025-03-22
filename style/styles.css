@@ -1,0 +1,43 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: block;
+    position: absolute;
+}
+
+.header {
+    background-color: red;
+    width: 90%;
+    height: 20%;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
+
+.content {
+    background-color: yellow;
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    top: 20%;
+    left: 5%
+}
+
+.img {
+    width: 30%;
+    border-radius: 40%;
+    position: absolute;
+    top: 10%;
+    left: 37%;
+}
